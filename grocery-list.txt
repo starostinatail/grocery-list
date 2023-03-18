@@ -1,0 +1,11 @@
+
+Each child should have a unique key prop" - Устраняем эту ошибку!
+
+            </div>
+                <ul>
+                    {this.state.groseryList.map((item, index) => (           ---- добавить елемент index (или i)
+                        <li key={index}>{item}</li>                          ---- уникальным ключом для каждого элемента будет индекс
+                    ))}
+                    <li></li>
+                </ul>
+            </div>                                                                                                                                                                                                                                                                                                                                                                           
